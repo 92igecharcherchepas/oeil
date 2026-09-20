@@ -1,0 +1,17 @@
+{
+  "name": "oeil-sauron-discord-bot",
+  "version": "1.0.0",
+  "description": "Surveille l'attribution de roles Discord avec des permissions sensibles.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1"
+  }
+}
